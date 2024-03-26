@@ -1,0 +1,14 @@
+.column-label {
+  border: none;
+}
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+.input-group input[readonly] {
+  border: none !important;
+}
+.input-group > input:focus {
+  outline: none !important; /* Remove default focus outline */
+  box-shadow: none !important; /* Remove any box shadow on focus */
+}
