@@ -1,8 +1,11 @@
-# React + Vite
+# Scheduling Algorithms Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+View Live at: [https://simulating-algorithm.netlify.app/](https://simulating-algorithm.netlify.app/)
 
-Currently, two official plugins are available:
+This project is a simulator for CPU scheduling algorithms. It is built using React, JavaScript and Bootstrap.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Algorithms Implemented:
+- [x] First Come First Serve (FCFS)
+- [x] Shortest Job First Preemptive (SJF-P)
+- [x] Shortest Job First Non-Preemptive (SJF-NP)
+- [x] Round Robin (RR)
